@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "name": "Add a real Pok\u00e9mon TCG product here",
+      "set": "Set name",
+      "type": "Booster Bundle",
+      "official_rrp_gbp": null,
+      "rrp_source_url": "",
+      "retailers": [
+        {
+          "retailer": "Retailer name",
+          "url": "https://example.com/product-page",
+          "availability_selector": ".availability",
+          "price_selector": ".price",
+          "in_stock_text": [
+            "in stock",
+            "available"
+          ],
+          "out_of_stock_text": [
+            "out of stock",
+            "sold out"
+          ],
+          "currency": "GBP",
+          "restock_status": "unknown",
+          "restock_date": null,
+          "note": "Replace example URL and selectors with a permitted retailer product page."
+        }
+      ]
+    }
+  ]
+}
